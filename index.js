@@ -129,3 +129,16 @@ let n1 = 20,
 
 resul = n1 + n2;
 console.log("El resultado de la Suma es: " + resul);
+
+resul = n1 - n2;
+console.log("El resultado de la resta es: " + resul);
+
+resul = n1 * n2;
+console.log("El resultado de la multiplicacion es: " + resul);
+
+resul = n1 / n2;
+console.log("El resultado de la division es: " + resul.toFixed(2));
+
+resul = n1 % n2;
+
+console.log("El resultado de modulo es: " + resul);
